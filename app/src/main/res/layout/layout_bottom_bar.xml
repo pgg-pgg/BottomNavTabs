@@ -28,7 +28,7 @@
         android:clipChildren="false"
         android:orientation="horizontal">
 
-        <com.ywl5320.bottomnavtabs.TabBar_Main
+        <com.ywl5320.bottomnavtabs.TabBottomBar
             android:id="@+id/home_tab"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
             app:icon="@drawable/tab_home"
             app:tvColors="@drawable/tabbar_tvcolor_mains"
             app:name="@string/main_home"/>
-        <com.ywl5320.bottomnavtabs.TabBar_Main
+        <com.ywl5320.bottomnavtabs.TabBottomBar
             android:id="@+id/classify_tab"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             app:name="@string/q_a"/>
 
 
-        <com.ywl5320.bottomnavtabs.TabBar_Main
+        <com.ywl5320.bottomnavtabs.TabBottomBar
             android:id="@+id/find_tab"
             android:layout_width="0dp"
             android:layout_height="58dp"
@@ -61,7 +61,7 @@
             app:imgHeight="35dp"
             app:name="@string/main_find"/>
 
-        <com.ywl5320.bottomnavtabs.TabBar_Main
+        <com.ywl5320.bottomnavtabs.TabBottomBar
             android:id="@+id/store_tab"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             app:icon="@drawable/tab_store"
             app:name="@string/fuwumendian"/>
 
-        <com.ywl5320.bottomnavtabs.TabBar_Main
+        <com.ywl5320.bottomnavtabs.TabBottomBar
             android:id="@+id/profile_tab"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

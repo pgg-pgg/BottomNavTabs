@@ -20,20 +20,20 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -42,10 +42,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_back.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
@@ -72,16 +68,12 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_circle_selector.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\nav_circle_selector.xml"
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
@@ -160,10 +152,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_me_selector.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\nav_me_selector.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\anim\\abc_fade_out.xml"
     },
@@ -206,10 +194,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_saoyisao.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\saoyisao.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -344,24 +328,24 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout.xml.flat",
         "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\layout\\fragment_layout.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_activity_my_center_circle_bg.png.flat",
@@ -472,10 +456,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_dot_red_bg.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\circle_dot_red_bg.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -522,10 +502,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share__more.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\share__more.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
@@ -648,10 +624,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_nearby_selector.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\nav_nearby_selector.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -696,12 +668,12 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
@@ -750,10 +722,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_xialabai.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\home_xialabai.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -920,10 +888,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_circle_message.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\home_circle_message.png"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -1032,14 +996,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_city.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\city.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_asd.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\layout\\asd.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -1062,10 +1018,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_circle_messagebai.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\home_circle_messagebai.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1380,20 +1332,12 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_message_selector.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\nav_message_selector.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_search.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\home_search.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_profile.xml.flat",
@@ -1544,10 +1488,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_servestore_share.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\servestore_share.png"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -1578,10 +1518,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_xiala.png.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable-xhdpi\\home_xiala.png"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -1628,10 +1564,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\layout\\test.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\color\\abc_primary_text_material_dark.xml"
     },
@@ -1664,10 +1596,6 @@
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_find_selector.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\drawable\\nav_find_selector.xml"
-    },
-    {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
@@ -1686,10 +1614,6 @@
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\pengganggui\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\ebd3153687538264d7b7a24af22cfd0a\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",

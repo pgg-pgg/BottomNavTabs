@@ -26,14 +26,17 @@ import rx.schedulers.Schedulers;
 
 /**
  * Created by pengganggui on 2018/8/24.
+ * 自定义的底部导航栏
  */
 
 public class BottomBarNavView extends RelativeLayout {
 
-    private String[] titles; //要显示的标题
+    //图片的url
     private String[] imageUrl;
-    private TabBar_Main[] bottomBars = new TabBar_Main[5];
+    //底部导航栏的item
+    private TabBottomBar[] bottomBars = new TabBottomBar[5];
     private Context context;
+    //点击事件
     private OnItemOnclickListener onItemOnclickListener;
 
     public BottomBarNavView(Context context) {
@@ -55,61 +58,79 @@ public class BottomBarNavView extends RelativeLayout {
         bottomBars[4] = findViewById(R.id.profile_tab);
     }
 
-
-    @Override
-    protected void onFinishInflate() {
-        super.onFinishInflate();
+    /**
+     * 设置底部item的标题
+     * @param titles 标题数组
+     * @return
+     */
+    public BottomBarNavView setTitles(String[] titles) {
         if (titles != null) {
             for (int i = 0; i < titles.length; i++) {
                 bottomBars[i].setName(titles[i]);
-            }
-        }
-    }
-
-    public BottomBarNavView setTitles(String[] titles) {
-        this.titles = titles;
-        for (int i = 0; i < titles.length; i++) {
-            final int finalI = i;
-            bottomBars[i].setOnClickListener(new OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    setSelectStyle(finalI);
-                    if (onItemOnclickListener != null) {
-                        onItemOnclickListener.onItemClick(finalI);
+                final int finalI = i;
+                bottomBars[i].setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        setSelectStyle(finalI);
+                        if (onItemOnclickListener != null) {
+                            onItemOnclickListener.onItemClick(finalI);
+                        }
                     }
-                }
-            });
-        }
-        return this;
-    }
-
-    public BottomBarNavView setImageUrls(String[] imageUrl) {
-        this.imageUrl = imageUrl;
-        readyToDrawable();
-        return this;
-    }
-
-    public BottomBarNavView setIsShowDot(int index, boolean isShowDot) {
-        for (int i = 0; i < bottomBars.length; i++) {
-            if (i == index) {
-                bottomBars[i].setIsShowDot(isShowDot);
+                });
             }
         }
         return this;
     }
 
+    /**
+     * 设置底部item的图片
+     * @param imageUrl 图片url数组
+     * @return
+     */
+    public BottomBarNavView setImageUrls(String[] imageUrl) {
+        if(imageUrl!=null){
+            this.imageUrl = imageUrl;
+            readyToDrawable();
+        }
+        return this;
+    }
+
+    /**
+     * 设置是否显示小红点
+     * @param index
+     * @param isShowDot
+     * @return
+     */
+    public BottomBarNavView setIsShowDot(int index, boolean isShowDot) {
+        if (index<bottomBars.length&&index>=0){
+            for (int i = 0; i < bottomBars.length; i++) {
+                if (i == index) {
+                    bottomBars[i].setIsShowDot(isShowDot);
+                }
+            }
+        }
+        return this;
+    }
+
+    /**
+     * 设置底部item文字的color
+     * @param colors 文字颜色的数组
+     * @return
+     */
     public BottomBarNavView setColorStyles(String[] colors) {
-        ColorStateList drawable = new ColorStateList(new int[][]{
-                new int[]{android.R.attr.state_selected}
-                , new int[]{android.R.attr.state_pressed}
-                , new int[]{android.R.attr.state_focused}
-                , new int[]{}}
-                , new int[]{Color.parseColor(colors[0].trim())
-                , Color.parseColor(colors[0].trim())
-                , Color.parseColor(colors[0].trim())
-                , Color.parseColor(colors[1].trim())});
-        for (int i = 0; i < bottomBars.length; i++) {
-            bottomBars[i].setTvColors(drawable);
+        if (colors!=null){
+            ColorStateList drawable = new ColorStateList(new int[][]{
+                    new int[]{android.R.attr.state_selected}
+                    , new int[]{android.R.attr.state_pressed}
+                    , new int[]{android.R.attr.state_focused}
+                    , new int[]{}}
+                    , new int[]{Color.parseColor(colors[0].trim())
+                    , Color.parseColor(colors[0].trim())
+                    , Color.parseColor(colors[0].trim())
+                    , Color.parseColor(colors[1].trim())});
+            for (int i = 0; i < bottomBars.length; i++) {
+                bottomBars[i].setTvColors(drawable);
+            }
         }
         return this;
     }
@@ -121,21 +142,31 @@ public class BottomBarNavView extends RelativeLayout {
      * @param index
      */
     public BottomBarNavView setSelectStyle(int index) {
-        int size = titles.length;
-        for (int i = 0; i < size; i++) {
-            if (i == index) {
-                bottomBars[i].setIsSelected(true);
-            } else {
-                bottomBars[i].setIsSelected(false);
+        if (index>=0&&index<bottomBars.length){
+            int size = bottomBars.length;
+            for (int i = 0; i < size; i++) {
+                if (i == index) {
+                    bottomBars[i].setIsSelected(true);
+                } else {
+                    bottomBars[i].setIsSelected(false);
+                }
             }
         }
         return this;
     }
 
+    /**
+     * 点击事件
+     * @param onItemOnclickListener
+     */
     public void setOnItemOnclickListener(OnItemOnclickListener onItemOnclickListener) {
         this.onItemOnclickListener = onItemOnclickListener;
     }
 
+    /**
+     * 将图片的url转换为Bitmap，再将bitmap转换为drawable，
+     * 最后封装到一个stateListDrawable中，转换过程在子线程
+     */
     private void readyToDrawable() {
         final int length = imageUrl.length;
         Observable.just(imageUrl)
@@ -192,6 +223,11 @@ public class BottomBarNavView extends RelativeLayout {
 
     }
 
+    /**
+     * 使用Glide将url转换为Bitmap
+     * @param url 图片url
+     * @return
+     */
     private Bitmap getImageFormUrl2Bitmap(String url) {
         try {
             return Glide.with(context).load(url).asBitmap() //必须.centerCrop()
