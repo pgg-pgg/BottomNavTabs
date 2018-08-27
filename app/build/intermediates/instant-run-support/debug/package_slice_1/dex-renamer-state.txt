@@ -1,0 +1,4 @@
+#Fri Aug 17 11:44:53 CST 2018
+base.0=D\:\\android_project\\BottomNavTabs-master\\BottomNavTabs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/icon_tabbar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1.0"
+        android:layout_above="@id/name_tabbar"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/name_tabbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:textColor="@drawable/tabbar_tvcolor_mains"
+        android:textSize="10sp"
+        android:layout_marginBottom="3dp"
+        android:text="asdasdas" />
+    <TextView
+        android:id="@+id/msg_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon_tabbar"
+        android:layout_above="@id/name_tabbar"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/activity_my_center_circle_bg"
+        android:layout_marginLeft="-10dp"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:textSize="9sp"/>
+</RelativeLayout>

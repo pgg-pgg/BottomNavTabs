@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:clipChildren="false"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="4dp"
+        android:layout_above="@id/ll_bottom"
+        android:background="#dedcdc"/>
+    <ImageView
+        android:id="@+id/home_find_bg"
+        android:layout_width="39dp"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-1dp"
+        android:layout_above="@id/line"
+        android:src="@drawable/ico_found_bg"/>
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="bottom"
+        android:clipChildren="false"
+        android:orientation="horizontal">
+
+        <com.ywl5320.bottomnavtabs.TabBar_Main
+            android:id="@+id/home_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:icon="@drawable/tab_home"
+            app:tvColors="@drawable/tabbar_tvcolor_mains"
+            app:name="@string/main_home"/>
+        <com.ywl5320.bottomnavtabs.TabBar_Main
+            android:id="@+id/classify_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_weight="1"
+            app:icon="@drawable/tab_classify"
+            app:tvColors="@drawable/tabbar_tvcolor_mains"
+            app:name="@string/q_a"/>
+
+
+        <com.ywl5320.bottomnavtabs.TabBar_Main
+            android:id="@+id/find_tab"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:visibility="visible"
+            android:layout_weight="1"
+            app:icon="@drawable/tab_find"
+            app:tvColors="@drawable/tabbar_tvcolor_mains"
+            app:isShowDot="true"
+            app:imgWidth="35dp"
+            app:imgHeight="35dp"
+            app:name="@string/main_find"/>
+
+        <com.ywl5320.bottomnavtabs.TabBar_Main
+            android:id="@+id/store_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tvColors="@drawable/tabbar_tvcolor_mains"
+            android:visibility="visible"
+            app:icon="@drawable/tab_store"
+            app:name="@string/fuwumendian"/>
+
+        <com.ywl5320.bottomnavtabs.TabBar_Main
+            android:id="@+id/profile_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_weight="1"
+            app:tvColors="@drawable/tabbar_tvcolor_mains"
+            app:icon="@drawable/tab_profile"
+            app:name="@string/main_center"/>
+    </LinearLayout>
+
+</RelativeLayout>
